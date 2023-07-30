@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mountain Warriors</title>
+    <link rel="shortcut icon" href="Images\logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/62de9f2d97.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+                /* Media Queries */
+                @media (max-width: 768px) {
+                    /* Styles for screens smaller than 768px (e.g., tablets and mobile phones) */
+                    .navbar-brand img {
+                        width: 80px;
+                        height: 80px;
+                    }
+        
+                    .navbar-nav .nav-item {
+                        margin-right: 5px;
+                    }
+        
+                    .featurette {
+                        padding: 30px;
+                    }
+        
+                    .featurette-image {
+                        max-width: 100%;
+                        height: auto;
+                    }
+        
+                    .carousel-item img {
+                        max-width: 100%;
+                        height: auto;
+                    }
+        
+                    .footer {
+                        padding: 10px;
+                    }
+                }
+    </style>
+</head>
+
+<body class="bg-secondar" style="background-color: black;">
+    <!-- navigation bar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky">
+            <a class="navbar-brand" href="home.html">
+                <img src="Images\logo.jpg" alt="" class="rounded-circle" width="150px" height="150px">
+            </a>
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index_2.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="ndex_3.html" id="navbardrop" data-toggle="dropdown">
+                        Treaking Tours
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="index_3.html">Ahiwant Gad</a>
+                        <a class="dropdown-item" href="index_3.html">Harihar Fort</a>
+                        <a class="dropdown-item" href="index_3.html">Ravlya Javlya Fort</a>
+                        <a class="dropdown-item" href="index_3.html">Kanchan Manchan Fort</a>
+                        <a class="dropdown-item" href="index_4.html">Indrai Fort</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index_3.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Navigation bar End -->
+
+    
+    <!-- corousel start -->
+    <div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img src="Images\K_M-3.jpg" alt="Chicago" width="1650" height="650">
+                    <div class="carousel-caption">
+                        <h1>Ahiwant Fort</h1>
+                        <p>One of the largest peak in maharashtra</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="Images\harihar-1.jpg" alt="Los Angeles" width="1650" height="650">
+                    <div class="carousel-caption">
+                        <h1>Harihar Fort</h1>
+                        <p>One of the hardest treak in Maharashtra</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Images\R_J-2.jpg" alt="New York" width="1650" height="650">
+                    <div class="carousel-caption">
+                        <h1>Squad - Mountain Warriors</h1>
+                        <p>Having some fun while treaking!</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <!-- corousel end -->
+
+
+    <!-- About us started -->
+    <div class="row featurette"
+        style="border-top: 8px solid rgb(73, 73, 73);border-bottom: 8px solid rgb(73, 73, 73); padding:95px; color:white">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">
+                About Us
+            </h2>
+            <p class="lead">
+                Established in 2020, Mountain Warriors is an adventurous trekking group with over three years of
+                thrilling expeditions. We've conquered 20+ forts, including Ankai, Ahiwant, Harihar, Ravlya Javlya,
+                Kanchan Manchan, and Dhodap. Our mission is to uncover nature's stories and promote responsible trekking
+                practices while forging lasting bonds and creating unforgettable memories. Join us for an extraordinary
+                journey of self-discovery and camaraderie in the mesmerizing Western Ghats!
+            </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                preserveAspectRatio="xMidYMid slice" focusable="false" src="Images\logo.jpg" alt="">
+        </div>
+    </div>
+    <!-- About us Ended -->
+
+
+    <!-- Trips Started -->
+    <div style="color: white; border-bottom:8px solid rgb(80, 80, 80); padding-bottom:150px">
+        <h1 style="margin-left: 15px; text-align:center">
+            Tours
+        </h1>
+        <p style="margin-left: 15px; text-align:center">
+            Here are some awesome treks successfully done by mountain warriors
+        </p>
+
+        <hr style="border: 2px solid rgb(184, 184, 184);">
+        <img src="Images/tour-3.jpg" alt="Images/treks-3.jpg" width="655px" height="655px" class="mt-2 mb-5"
+            style="border: 8px solid rgb(158, 156, 156); margin-left:55px; ">
+        <div id="demo" class="carousel slide mr-5" data-ride="carousel"
+            style="margin-left: 880px; margin-top:-500px; border:5px solid white">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+                <li data-target="#demo" data-slide-to="4"></li>
+            </ul>
+
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img src="Images\Ahiwant-6.jpg" alt="Ahiwant-6.jpg" width="650" height="320">
+                    <div class="carousel-caption">
+                        <h1>Ahiwant Fort</h1>
+                        <a href="index_3.html">
+                            <button type="button" class="btn btn-sm btn-outline-warning">Read
+                                more
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <img src="Images\harihar-3.jpg" alt="harihar-3.jpg" width="650" height="320">
+                    <div class="carousel-caption">
+                        <h1>Harihar Fort</h1>
+                        <a href="index_3.html">
+                            <button type="button" class="btn btn-sm btn-outline-warning">Read
+                                more
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="Images\R_J-1.jpg" alt="New York" width="650" height="320">
+                    <div class="carousel-caption">
+                        <h1>Ravlya - Javlya</h1>
+                        <a href="index_3.html">
+                            <button type="button" class="btn btn-sm btn-outline-warning">Read
+                                more
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <img src="Images\K_M-3.jpg" alt="Images\K_M-3.jpg" width="650" height="320">
+                    <div class="carousel-caption">
+                        <h1>Kanchan - Manchan</h1>
+                        <a href="index_3.html">
+                            <button type="button" class="btn btn-sm btn-outline-warning">Read
+                                more
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <img src="Images\indrai-6.jpg" alt="Los Angeles" width="650" height="320">
+                    <div class="carousel-caption">
+                        <h1>Indrai Fort</h1>
+                        <a href="index_3.html">
+                            <button type="button" class="btn btn-sm btn-outline-warning">Read
+                                more
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <!-- Trips Ended -->
+
+    
+
+
+    <!-- footer start -->
+    <div class="col-lg-3 col-md-6 mb-5" style="color: white;">
+        <h4 class="text- mb-4">Get In Touch</h4>
+        <p>
+           <span class="h3"><i class="fa-solid fa-location-dot"></i></span> <span class="h5">MOUNTAIN WARRIORS , LASALGAON</span><br><br>
+
+        Lasalgaon, <br>
+        Tel: Niphad Dist: Nashik <br>
+        Maharashtra 422306
+        </p>
+
+        <div class="container" style="margin-left: 355px; margin-top:-95px">
+
+            <p><i class="fa fa-phone-alt mr-2"></i>
+                <a href="tel:+919595167246" style="color: white;">+919595167246</a>
+        </p>
+        <p><i class="fa fa-envelope mr-2"></i>
+            <a href="mailto:mwlsg2021@gmail.com" style="color: white;">mwlsg2021@gmail.com</a>
+        </p>
+    </div>
+
+    <div class="container" style="margin-left: 1335px; margin-top:-75px">
+        <div class="d-flex justify-content-start mt-4">
+            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;"
+            href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;"
+            href="https://instagram.com/mountain_warriors_09?igshid=OGQ5ZDc2ODk2ZA==">
+            <i class="fa-brands fa-instagram"></i></a>
+            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;"
+            href="https://m.youtube.com/channel/UCD0Bfr6ucDMcqi7G8jFBu6w?fbclid=PAAaZirEgdrpNPtBEtsrRCTI5uIyD2s2qrS-oGdxEB69wYAITH9Id_nBdrqO8"><i
+            class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    </div>
+    <!-- Footer end -->
+
+</body>
+
+</html>
