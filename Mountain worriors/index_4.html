@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mountain Warriors</title>
+    <link rel="shortcut icon" href="Images\logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/62de9f2d97.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./asset/M.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./Style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-secondar" style="background-color: black;">
+    <!-- navigation bar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky">
+            <a class="navbar-brand" href="home.html">
+                <img src="Images\logo.jpg" alt="" class="rounded-circle" width="150px" height="150px">
+            </a>
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index_2.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="ndex_3.html" id="navbardrop" data-toggle="dropdown">
+                        Treaking Tours
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="index_3.html">Ahiwant Gad</a>
+                        <a class="dropdown-item" href="index_3.html">Harihar Fort</a>
+                        <a class="dropdown-item" href="index_3.html">Ravlya Javlya Fort</a>
+                        <a class="dropdown-item" href="index_3.html">Kanchan Manchan Fort</a>
+                        <a class="dropdown-item" href="index_3.html">Indrai Fort</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index_4.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Navigation bar End -->
+
+
+    <!-- Contact us started -->
+    <form name="contact_form" style="color: white; border-bottom:8px solid rgb(82, 82, 82)">
+
+        <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2" >
+                <div class="p-2 w-1/2">
+                    <div class="relative">
+                        <label for="name" class="leading-7 text-sm text-gray-600" style="color: white;">Name</label>
+                        <input type="text" id="name1" name="first_name"
+                            class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                </div>
+                <div class="p-2 w-1/2">
+                    <div class="relative">
+                        <label for="email" class="leading-7 text-sm text-gray-600"style="color: white;">Email</label>
+                        <input type="email" id="email1" name="Email_ID"
+                            class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                </div>
+                <div class="p-2 w-1/2">
+                    <div class="relative">
+                        <label for="mobileno" class="leading-7 text-sm text-gray-600"style="color: white;">Mobile No</label>
+                        <input type="text" id="mobileno1" name="Mobile_no" maxlength="10"
+                            class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                </div>
+                <div class="p-2 w-1/2">
+                    <div class="relative">
+                        <label for="enquiry1" class="leading-7 text-sm text-gray-600"style="color: white;">Enquiry</label>
+                        <input type="text" id="enquiry1" name="Enquiry1"
+                            class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                </div>
+                <div class="p-2 w-full">
+                    <div class="relative">
+                        <label for="message" class="leading-7 text-sm text-gray-600"style="color: white;">Message</label>
+                        <textarea id="message1" name="Messages"
+                            class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                    </div>
+                </div>
+                <div class="p-2 w-full">
+                    <button type="submit"
+                        class="flex mx-auto text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg"
+                        name="save"style="color: white;">Submit</button>
+                </div>
+
+                <div class="p-2 ml-6 mt-5">
+                    <h3 class="title-font text-center text-lg font-medium text-gray-600 mb-2"style="color: white;">Thank you for showing
+                        bussiness interest with us. Please connect on below.</h3>
+                    <hr style="border: 1px solid rgb(209, 202, 202);">
+
+                </div>
+                <div class="p-2 ml-6">
+                    <p class="leading-relaxed mb-3"> </p>
+                </div>
+            </div>
+        </div>
+
+    </form>
+    <!-- Contact us ended -->
+
+    <!-- footer start -->
+    <div class="col-lg-3 col-md-6 mb-5" style="color: white;">
+        <h4 class="text- mb-4">Get In Touch</h4>
+        <p>
+            <span class="h3"><i class="fa-solid fa-location-dot"></i></span> <span class="h5">MOUNTAIN WARRIORS ,
+                LASALGAON</span><br><br>
+
+            Lasalgaon, <br>
+            Tel: Niphad Dist: Nashik <br>
+            Maharashtra 422306
+        </p>
+
+        <div class="container" style="margin-left: 355px; margin-top:-95px">
+
+            <p><i class="fa fa-phone-alt mr-2"></i>
+                <a href="tel:+919595167246" style="color: white;">+919595167246</a>
+            </p>
+            <p><i class="fa fa-envelope mr-2"></i>
+                <a href="mailto:mwlsg2021@gmail.com" style="color: white;">mwlsg2021@gmail.com</a>
+            </p>
+        </div>
+
+        <div class="container" style="margin-left: 1335px; margin-top:-75px">
+            <div class="d-flex justify-content-start mt-4">
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                    href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                    href="https://instagram.com/mountain_warriors_09?igshid=OGQ5ZDc2ODk2ZA==">
+                    <i class="fa-brands fa-instagram"></i></a>
+                <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;"
+                    href="https://m.youtube.com/channel/UCD0Bfr6ucDMcqi7G8jFBu6w?fbclid=PAAaZirEgdrpNPtBEtsrRCTI5uIyD2s2qrS-oGdxEB69wYAITH9Id_nBdrqO8"><i
+                        class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer end -->
+</body>
+
+</html>
